@@ -1,0 +1,9 @@
+echo "cGtnIHVwZGF0ZSAteQpwa2cgdXBncmFkZSAteQpwa2cgaW5zdGFsbCBwaHAgLXkKcGtnIGluc3Rh
+bGwgZmlnbGV0IC15CnBrZyBpbnN0YWxsIGN1cmwgLXkKcGtnIGluc3RhbGwgcnVieSAteQpwa2cg
+aW5zdGFsbCB0b2lsZXQgLXkKZ2VtIGluc3RhbGwgbG9sY2F0IC15CnBrZyBpbnN0YWxsIGdpdCAt
+eQpnaXQgY2xvbmUgaHR0cHM6Ly9naXRodWIuY29tL3NxbG1hcHByb2plY3Qvc3FsbWFwCnJtIHJl
+cXVpcmVtZW50cy5zaA==" > req.sh
+base64 req.sh > reqd.sh --decode
+bash reqd.sh
+rm req.sh
+rm reqd.sh
